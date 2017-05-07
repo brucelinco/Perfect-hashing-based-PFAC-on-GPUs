@@ -1,5 +1,5 @@
 # Perfect-hashing-based-PFAC
-The file structure as following.
+The file structure is as following.
 ```
 main.cc                          // main function
 +-CreateTable/
@@ -14,9 +14,12 @@ main.cc                          // main function
   +-phf.c                          // create perfect hash function
 ```
 Use make to compile. The executable file is 'gphf'. The GPU PHF.
+
 usage: ./<exefile> <pattern file name> <type> <PHF width> <input file name>
 
 type:
+```
   0  normal text
   1  text with escape character
   2  character set representation
+```
