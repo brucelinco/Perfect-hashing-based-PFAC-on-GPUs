@@ -13,10 +13,12 @@ main.cc                          // main function
 +-PHF/
   +-phf.c                          // create perfect hash function
 ```
-Use make to compile. The executable file is 'gphf'. The GPU PHF.
+Use make to compile. The executable file is named as 'gphf'. 
 
-usage: ./<exefile> <pattern file name> <type> <PHF width> <input file name>
-
+usage:
+```
+./gphf <pattern file name> <type> <PHF width> <input file name>
+```
 type:
 ```
   0  normal text
