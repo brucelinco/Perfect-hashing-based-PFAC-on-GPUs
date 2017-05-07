@@ -1,6 +1,6 @@
 # Perfect-hashing-based-PFAC
 The file structure as following.
-
+```
 main.cc                          // main function
 +-CreateTable/
 | +-create_PFAC_table_reorder.c    // package 3 kinds of creating table method
@@ -12,7 +12,7 @@ main.cc                          // main function
 |
 +-PHF/
   +-phf.c                          // create perfect hash function
-
+```
 Use make to compile. The executable file is 'gphf'. The GPU PHF.
 usage: ./<exefile> <pattern file name> <type> <PHF width> <input file name>
 
