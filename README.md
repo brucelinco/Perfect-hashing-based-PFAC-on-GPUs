@@ -1,4 +1,4 @@
-# Perfect-hashing-based-PFAC
+# Perfect hashing based PFAC
 The file structure is as following.
 ```
 main.cc                          // main function
